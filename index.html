@@ -11,11 +11,12 @@
     />
   </head>
 
-  <body>
+  <!-- <body class="bg-warning"> -->
+  <body style="background-color: rgb(255, 226, 36)">
     <div class="container">
       <h1 class="text-center text-primary mt-4 mb-4">Giphy Party!</h1>
       <!-- <div class="col border shadow rounded p-4 mx-3 mx-md-0"> -->
-      <form class="form-inline d-flex justify-content-center mb-4">
+      <form class="form-inline d-flex justify-content-center mb-4 sticky-top">
         <input
           type="text"
           id="search"
@@ -23,9 +24,17 @@
           class="form-control mr-2"
           placeholder="search for gifs"
         />
-        <input type="submit" class="btn btn-primary" value="Search" />
-        <button id="trending" class="btn btn-success ml-1">Trending</button>
-        <button id="remove" class="btn btn-danger ml-1">Remove gifs</button>
+        <input
+          type="submit"
+          class="btn btn-primary border-dark"
+          value="Search"
+        />
+        <button id="trending" class="btn btn-success ml-1 border-dark">
+          Trending
+        </button>
+        <button id="remove" class="btn btn-danger ml-1 border-dark">
+          Remove gifs
+        </button>
       </form>
       <div class="form-inline d-flex justify-content-center mb-4"></div>
       <!-- </div> -->
